@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #a7aaae;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10vw;
+    padding-top: 10px;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 42px;
+}
+
+.label {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 19px;
+    letter-spacing: 0.11em;
+    color: #493232;
+
+    border-bottom: 1px solid #493232;
+}
