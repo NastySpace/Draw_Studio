@@ -9,14 +9,14 @@
 .logo {
     margin-left: 10vw;
     padding-top: 10px;
-    height: 50px;
+    height: 45px;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: 35%;
     margin-right: 42px;
 }
 
@@ -25,10 +25,22 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1rem;
     line-height: 19px;
     letter-spacing: 0.11em;
     color: #493232;
 
     border-bottom: 1px solid #493232;
+}
+.nav_item{
+    display: flex;
+    justify-content:space-between;
+    
+}
+/* icon */
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    
 }
