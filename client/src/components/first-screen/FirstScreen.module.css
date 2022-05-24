@@ -1,17 +1,17 @@
 .screen {
     display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 500px;
-    background: #F5F5F5;
+    background: #f5f5f5;
 }
 
 .text {
     width: 262px;
     height: 193px;
     margin-left: 100px;
-    padding-top: 180px;
+    padding-top: 200px;
 }
- 
+
 .h2 {
     font-family: 'Roboto';
     font-style: normal;
@@ -38,21 +38,62 @@
 .shop {
     width: 120px;
     height: 30px;
-    background-color: #DDCFCF;
-    border: 1px solid #787272
+    background-color: #ddcfcf;
+    border: 1px solid #787272;
 }
 
 /*photo*/
+.foto {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.foto:last-child {
+    margin-right: 15px;
+}
 .onePhoto {
     width: 259px;
     height: 346px;
-    margin-left: 650px;
+}
+
+.twoPhoto {
+    width: 259px;
+    height: 346px;
+}
+
+.stacy {
+    width: 293px;
+}
+
+.foto_one {
+    width: 259px;
+    height: 346px;
     padding-top: 24px;
 }
 
-.twoPhoto{
-    width: 259px;
-    height: 346px;  
-    margin-left: 358px;
+.foto_stacy {
+    width: 293px;
+    height: 360px;
+    padding-top: 219px;
+    margin-bottom: 12px;
+}
+.foto_two {
     padding-top: 24px;
+}
+/* text foto */
+
+.draw {
+    font-family: 'Hurricane';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    transform: rotate(-90deg);
+}
+
+.Anastasiia {
+    font-size: 20px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
 }
