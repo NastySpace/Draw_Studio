@@ -1,0 +1,39 @@
+.card {
+    display: inline-block;
+    background: #fbfbfb;
+    border: 1px solid rgba(205, 191, 191, 0.83);
+    border-radius: 20px;
+    padding-bottom: 8px;
+    margin: 15px;
+}
+
+.photo {
+    border-radius: 10px;
+    margin: 19px 16px 0px 16px;
+    width: 232px;
+    height: 310px;
+}
+
+.name {
+    margin: 4px 16px;
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.price {
+    margin-left: 16px;
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+
+    color: #b90f0f;
+}

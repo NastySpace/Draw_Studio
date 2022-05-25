@@ -1,0 +1,47 @@
+.shop {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    max-width: 80%;
+}
+
+.title {
+    margin-top: 50px;
+
+    text-align: center;
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+
+    color: #6d0808;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    letter-spacing: 0.11em;
+    margin-bottom: 60px;
+}
+
+.container {
+    max-height: 950px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    flex-wrap: wrap;
+}

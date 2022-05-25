@@ -14,9 +14,9 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 35%;
+    width: 30%;
     margin-right: 42px;
 }
 
@@ -32,15 +32,13 @@
 
     border-bottom: 1px solid #493232;
 }
-.nav_item{
+.nav_item {
     display: flex;
-    justify-content:space-between;
-    
+    justify-content: space-between;
 }
 /* icon */
 .icon {
     width: 20px;
     height: 20px;
     margin-right: 4px;
-    
 }

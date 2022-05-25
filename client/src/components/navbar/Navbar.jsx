@@ -16,10 +16,6 @@ const Navbar = () => {
                     <div className={styles.label}>Головна</div>
                 </div>
                 <div href="" className={styles.nav_item}>
-                    <img src={storeIcon}className={styles.icon}></img>
-                    <div className={styles.label}>Магазин</div>
-                </div>
-                <div href="" className={styles.nav_item}>
                     <img src={orderIcon} className={styles.icon}></img>
                     <div className={styles.label}>Замовити</div>
                 </div>

@@ -79,6 +79,8 @@
     margin-bottom: 12px;
 }
 .foto_two {
+    width: 259px;
+    height: 346px;
     padding-top: 24px;
 }
 /* text foto */
@@ -86,6 +88,7 @@
 .draw {
     font-family: 'Hurricane';
     font-style: normal;
+    margin-right: -50px;
     font-size: 20px;
     line-height: 41px;
     letter-spacing: 0.05em;
@@ -93,6 +96,8 @@
 }
 
 .Anastasiia {
+    margin-top: -55px;
+    margin-left: -200px;
     font-size: 20px;
     line-height: 41px;
     letter-spacing: 0.05em;
