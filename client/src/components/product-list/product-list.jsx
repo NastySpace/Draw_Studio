@@ -59,10 +59,10 @@ const ProductList = () => {
             </p>
             <div className={styles.container}>
                 <div className={styles.products}>
-                    {products.map((product) => {
+                    {products.map((product, i) => {
                         return (
                             <Product
-                                key={product.img}
+                                key={i}
                                 img={product.img}
                                 name={product.name}
                                 price={product.price}

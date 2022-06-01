@@ -1,5 +1,5 @@
 .aside {
-    width: 25%;
+    width: 360px;
     height: 1150px;
     display: inline-block;
     background: #f4f4f4;
@@ -62,11 +62,11 @@
     border-radius: 10px;
 
     opacity: 0.6;
-  transition: 0.3s;
+    transition: 0.3s;
 }
 
 .reset:hover {
- background: #e4e4c6e8;
+    background: #e4e4c6e8;
 
     opacity: 1;
 }

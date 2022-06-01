@@ -1,23 +1,20 @@
 const ProductService = require('../services/product-service');
+const uuid = require('uuid');
+const path = require('path');
 
 class ProductController {
     async addProduct(req, res) {
         try {
-            const {
-                name,
-                price,
-                img,
-                size,
-                sex,
-                material,
-                style,
-                isAvailable,
-            } = req.body;
+            const { name, price, size, sex, material, style, isAvailable } =
+                req.body;
+            const img = req.files.img;
+            const fileName = uuid.v4() + '.jpg';
+            img.mv(path.resolve(__dirname, '..', '..', 'public', fileName));
 
             const saveProduct = await ProductService.addProduct({
                 name,
                 price,
-                img,
+                img: fileName,
                 size,
                 sex,
                 material,

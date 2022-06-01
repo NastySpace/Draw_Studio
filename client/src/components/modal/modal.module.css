@@ -1,0 +1,74 @@
+.card {
+    box-sizing: border-box;
+    width: 551px;
+    height: 527px;
+    padding: 20px;
+
+    background: #ebe6e6;
+    border: 1px solid #625e5e;
+    border-radius: 20px;
+
+    /* text */
+    font-family: 'Hurricane';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+
+    color: #6c6c6c;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    width: 230px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.content_text {
+    width: 237px;
+    height: 320px;
+}
+
+.input_name {
+    box-sizing: border-box;
+    width: 230px;
+    height: 27px;
+
+    background: #f6f1f1;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.button_buy {
+    width: 120px;
+    height: 23px;
+    background: #fdfdfd;
+    border: 1px solid rgba(44, 31, 31, 0.58);
+    border-radius: 40px;
+}
+
+.button_exit {
+    width: 120px;
+    height: 23px;
+    background: #fdfdfd;
+    border: 1px solid rgba(44, 31, 31, 0.58);
+    border-radius: 40px;
+}
+
+.yes {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #2dba16;
+}
+
+.no {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #fe0000;
+}
